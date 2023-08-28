@@ -1,4 +1,4 @@
-#!/usr/bin/python3
+#!/usr/bin/env python3
 """a to_str function that takes a float n
 and return the string repr of that float"""
 

@@ -1,4 +1,4 @@
-#!/usr/bin/python3
+#!/usr/bin/env python3
 """a type-annotated floor function
 that returns the floor of a float passed
 as a parameter."""
