@@ -4,4 +4,6 @@ and return the string repr of that float"""
 
 
 def to_str(n: float) -> str:
+    """to_str function that
+    returns the str repr of a float"""
     return str(n)
