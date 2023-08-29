@@ -5,6 +5,7 @@ T = TypeVar('T')
 
 
 def safely_get_value(dct: Mapping, key: Any, default: Union[T, None]) -> Union[Any, T]:  # noqa: E501
+    "Safely_get_value() function, duck-type annotated"
     if key in dct:
         return dct[key]
     else:
