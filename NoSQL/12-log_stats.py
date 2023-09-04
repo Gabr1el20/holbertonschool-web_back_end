@@ -30,9 +30,9 @@ if __name__ == "__main__":
             elif value == "/status":
                 status += 1
     print(f"{logs} logs\nMethods:")
-    print(f"\t method GET: {gets}")
-    print(f"\t method POST: {posts}")
-    print(f"\t method PUT: {puts}")
-    print(f"\t method PATCH: {patchs}")
-    print(f"\t method DELETE: {deletes}")
-    print(f"{status} status Check")
+    print(f"\tmethod GET: {gets}")
+    print(f"\tmethod POST: {posts}")
+    print(f"\tmethod PUT: {puts}")
+    print(f"\tmethod PATCH: {patchs}")
+    print(f"\tmethod DELETE: {deletes}")
+    print(f"{status} status check")
