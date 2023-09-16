@@ -13,7 +13,7 @@ export default class Pricing {
   displayFullPrice() {
     const code = (this.currency._code);
     const name = (this.currency._name);
-    const money = `${this.amount} ${name} ${code})`;
+    const money = `${this._amount} ${name} ${code})`;
 
     return money;
   }
