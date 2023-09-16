@@ -5,7 +5,8 @@ export default class Pricing {
     this._amount = amount;
     this._currency = currency;
   }
-/* amount getter and setter */
+  /* amount getter and setter */
+
   set amount(value) {
     this._amount = value;
   }
@@ -23,7 +24,7 @@ export default class Pricing {
   get currency() {
     return this._currency;
   }
-  
+
   displayFullPrice() {
     const code = (this.currency._code);
     const name = (this.currency._name);
