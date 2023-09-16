@@ -5,15 +5,29 @@ export default class Pricing {
     this._amount = amount;
     this._currency = currency;
   }
-
+/* amount getter and setter */
   set amount(value) {
     this._amount = value;
   }
 
+  get amount() {
+    return this._amount;
+  }
+
+  /* currency getter and setter */
+
+  set currency(value) {
+    this._currency = value;
+  }
+
+  get currency() {
+    return this._currency;
+  }
+  
   displayFullPrice() {
     const code = (this.currency._code);
     const name = (this.currency._name);
-    const money = `${this._amount} ${name} ${code})`;
+    const money = `${this._amount} ${name} (${code})`;
 
     return money;
   }
@@ -27,16 +41,3 @@ export default class Pricing {
     }
     return (amount * conversionRate);
   }
-
-  set currency(value) {
-    this._currency = value;
-  }
-
-  get amount() {
-    return this._amount;
-  }
-
-  get currency() {
-    return this._currency;
-  }
-}
